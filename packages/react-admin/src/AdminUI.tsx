@@ -6,7 +6,7 @@ import {
     Login,
     Logout,
     NotFound,
-} from 'ra-ui-materialui';
+} from '@seasons/ra-ui-materialui';
 
 const AdminUI: FC<AdminUIProps> = props => <CoreAdminUI {...props} />;
 

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { CoreAdminRouter, AdminRouterProps } from 'ra-core';
-import { Loading } from 'ra-ui-materialui';
+import { Loading } from '@seasons/ra-ui-materialui';
 
 const AdminRouter: FC<AdminRouterProps> = props => (
     <CoreAdminRouter {...props} />
